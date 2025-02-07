@@ -1,14 +1,28 @@
 body {
-  background-color: #2e4057;
-  color: #f6d8ae;
+  background-color: #4d5382;
+  color: #f0e7d8;
   width: 210mm;
   margin: 20px auto;
   padding: 20mm;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
-  border: 1px solid #ddd;
+  border: 1px solid #ba6e6e;
   text-align: center;
   font-family: Arial, sans-serif;
+}
+hr {
+  border: 1px solid #ba6e6e;
+}
+h1 {
+  font-size: 30px;
+  text-decoration: underline;
+  color: #ab9b96;
+}
+a:link {
+  color: #a1674a;
+}
+a:visited {
+  color: #ba6e6e;
 }
 h3 {
   font-size: 20px;
@@ -19,6 +33,7 @@ h3 {
   margin-bottom: 0px;
   border-radius: 0px;
   position: relative;
+  color: #ab9b96;
 }
 ul,
 li {
