@@ -62,3 +62,10 @@ img.hell {
   height: 175px;
   border-radius: 5%;
 }
+img.guide {
+  text-align: right;
+  margin: 20px;
+  width: 175px;
+  height: 250px;
+  border-radius: 5%;
+}
