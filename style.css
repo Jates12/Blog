@@ -33,3 +33,10 @@ footer {
   padding: 10px;
   text-align: center;
 }
+img.confusion {
+  text-align: right;
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
