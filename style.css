@@ -1,0 +1,32 @@
+body {
+  background-color: #f0f3f5;
+  color: #33261d;
+  width: 210mm;
+  margin: 20px auto;
+  padding: 20mm;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+navheader {
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+  padding-bottom: 10px;
+  position: relative;
+}
+ul,
+li {
+  list-style-type: none;
+  padding: 2%;
+  margin: 0;
+}
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #f0f3f5;
+  padding: 10px;
+  text-align: center;
+}
