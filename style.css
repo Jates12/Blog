@@ -10,6 +10,7 @@ body {
   text-align: center;
   font-family: Arial, sans-serif;
 }
+
 hr {
   border: 1px solid #ba6e6e;
 }
@@ -68,4 +69,21 @@ img.guide {
   width: 175px;
   height: 250px;
   border-radius: 5%;
+}
+img.solo {
+  text-align: right;
+  margin: 20px;
+  width: 250px;
+  height: 200px;
+  border-radius: 5%;
+}
+img.code {
+  text-align: right;
+  margin: 20px;
+  width: 300px;
+  height: 200px;
+  border-radius: 5%;
+}
+strong {
+  color: #a1674a;
 }
