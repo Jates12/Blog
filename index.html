@@ -6,48 +6,60 @@
     <link rel="stylesheet" href="style.css" />
     <title>JY-M Front End Blog</title>
   </head>
-  <h1>Welcome To My Blog!</h1>
-  <p>
-    Here I will be blogging my journey of learning Front End principles starting
-    with HTML and CSS, then moving onto JavaScript.<br />
-    I hope you enjoy my journey, if you have any questions or comments please
-    get in touch with me on my social links below!
-  </p>
   <body>
-    <img class="code" src="images/coding.avif" alt="laptop displaying code." />
-    <nav>
-      <h3>Blog Posts</h3>
+    <header>
+      <div class="container">
+        <h1>Welcome To My Blog!</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Day1.html">Day 1</a></li>
+            <li><a href="Day2.html">Day 2</a></li>
+            <li><a href="Day3.html">Day 3</a></li>
+            <li><a href="Day4.html">Day 4</a></li>
+            <li><a href="Day5.html">Day 5</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <p>
+        Here I will be blogging my journey of learning Front End principles
+        starting with HTML and CSS, then moving onto JavaScript. I hope you
+        enjoy my journey!
+      </p>
+
+      <img src="images/coding.avif" alt="laptop displaying code" />
+
+      <h2>Blog Posts</h2>
       <ul>
-        <li><a href="Day1.html">Day1 - Where to begin?!</a></li>
-        <li><a href="Day2.html">Day2 - HTML Basics</a></li>
-        <li>
-          <a href="Day3.html">Day3 - Codecademy - Tutorial Hell?</a>
-        </li>
-        <li><a href="Day4.html">Day4 - Guided Project</a></li>
-        <li>
-          <a href="Day5.html">Day5 - CSS Basics & Solo Project</a>
-        </li>
+        <li><a href="Day1.html">Day 1 - Where to begin?!</a></li>
+        <li><a href="Day2.html">Day 2 - HTML Basics</a></li>
+        <li><a href="Day3.html">Day 3 - Codecademy - Tutorial Hell?</a></li>
+        <li><a href="Day4.html">Day 4 - Guided Project</a></li>
+        <li><a href="Day5.html">Day 5 - CSS Basics & Solo Project</a></li>
       </ul>
-    </nav>
-    <hr />
+    </main>
 
     <footer>
-      <p>James Yates-McLaren &copy; 2025</p>
-      <a href="https://www.linkedin.com/in/jamesyates-mclaren/">
-        <img
-          src="images/Linkedin Logo.png"
-          alt="James Yates-McLaren Linkedin"
-          height="25"
-          width="25"
-        />
-      </a>
-      <a href="https://github.com/Jates12">
-        <img
-          src="images/Github.png"
-          alt="James Yates-McLaren GitHub Link"
-          height="25"
-          width="25"
-      /></a>
+      <div class="container">
+        <p>James Yates-McLaren &copy; 2025</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/jamesyates-mclaren/">
+            <img
+              src="images/Linkedin Logo.png"
+              alt="James Yates-McLaren Linkedin"
+            />
+          </a>
+          <a href="https://github.com/Jates12">
+            <img
+              src="images/Github.png"
+              alt="James Yates-McLaren GitHub Link"
+            />
+          </a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
